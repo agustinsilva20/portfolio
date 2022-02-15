@@ -1,0 +1,138 @@
+.sobreMi{
+    width:100%;
+    height: 70vh;
+    margin:auto;
+    margin-top:10rem;
+
+}
+
+#hola{
+    color:var(--verde);
+    font-family: 'JetBrains Mono', monospace;
+    margin-left: 1rem;
+}
+
+#nombre{
+    color:white;
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    font-size: 7rem;
+    margin-top: 1rem;
+}
+
+#descripcion{
+    color:var(--gris);
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    font-size: 4rem;
+    color:var(--verde);
+
+}
+
+.texto{
+    color:var(--gris);
+    
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    font-size:1.5rem;
+    margin-top: 0.5rem;
+}
+
+.btnContacto{
+    color:var(--verde);
+    font-family: 'JetBrains Mono', monospace;
+    border: 1px solid var(--verde);
+    cursor: pointer;
+    width:8.5rem;
+    text-align: center;
+    border-radius: 4px;
+    margin-top: 2rem;
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem;
+    
+}
+
+.btnContacto:hover{
+    background-color:#64ffdb27;
+
+}
+
+.yo img{
+    width:30rem;
+    margin-left: 2rem;
+}
+.df{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.info{
+    margin-right: 2rem;
+}
+.yo{
+   margin-bottom: 5rem;
+}
+
+.contacto{
+    padding:1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.linkedin{
+    width: 100px;
+    margin-right: 1rem;
+    
+
+}
+.whatsapp{
+    width: 35px;
+    height:35px;
+    margin-right: 1rem;
+}
+
+.mail{
+    width: 50px;
+    height:50px;
+}
+
+.btnsocial{
+    cursor:pointer;
+    transition: all 0.4s ease;
+}
+
+.btnsocial:hover{
+    content: url('img/linkedin2.png');
+}
+.btnmail:hover{
+    content: url('img/mail2.png');
+}
+
+.infomail{
+    color:var(--azul);
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    background-color: var(--verde);
+    padding-right:0.8rem;
+    padding-left:0.8rem;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    border-radius: 0.25em;
+    cursor: pointer;
+    
+
+}
+
+.notvisible{
+    display: none;
+    cursor: pointer;
+
+    
+}
+
+.botones{
+    display: flex;
+    width: 110%;
+    overflow: hidden;
+}
+
+.btn2{
+    margin-left: 1rem;
+}

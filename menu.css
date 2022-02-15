@@ -1,0 +1,32 @@
+header{
+    font-family: 'JetBrains Mono', monospace;
+}
+.menu{
+    display:flex;
+    justify-content: flex-end;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    margin-top:3rem ;
+    margin-right:5rem;
+}
+
+.btnMenu{
+    margin-left:1rem;
+    display:flex;
+}
+
+.btnMenu:hover>p{
+    color:var(--verde);
+    transition: all 0.5s;
+
+}
+.numero{
+color:var(--verde);
+}
+
+.opcion{
+    color:white;
+    margin-left:0.5rem;
+}
+
+

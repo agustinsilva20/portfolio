@@ -1,0 +1,29 @@
+
+:root {
+    --azul-Oscuro: #020c1b;
+    --azul: #0a192f;
+    --verde:#64ffda;
+    --gris:hsl(0, 0%, 94%);
+    --gris2:#fffffffa;
+}
+
+*{
+    margin:0;
+    padding:0;
+    text-decoration: none;
+}
+body{
+    background-color:var(--azul);
+    overflow-x: hidden;
+}
+
+.white{
+    color:rgba(255, 255, 255) !important;
+}
+.tac{
+    text-align: center;
+}
+
+.ml{
+    margin-left:3rem;
+}
